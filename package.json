@@ -16,8 +16,8 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview",
+    "build:dev": "tsc && vite build",
+    "build": "tsc && vite build --mode lib",
     "prepublishOnly": "npm run build"
   },
   "devDependencies": {
