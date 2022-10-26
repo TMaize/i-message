@@ -16,9 +16,9 @@
   },
   "scripts": {
     "dev": "vite",
-    "build:dev": "tsc && vite build",
-    "build": "tsc && vite build --mode lib",
-    "prepublishOnly": "npm run build"
+    "build": "tsc && vite build",
+    "build:lib": "tsc && vite build --mode lib",
+    "prepublishOnly": "npm run build:lib"
   },
   "devDependencies": {
     "typescript": "^4.6.4",
